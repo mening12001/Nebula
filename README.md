@@ -30,7 +30,7 @@ In order to send a computation to a running Slave(Server) instance, you simply c
 Slave slave = new Slave(remote_server_address, remote_server_port);
 slave.compute(() -> {System.out.println("example remote lambda executed"); return true;});
 ```
-The lambda is simply executed on the remote server, returning as a result in this case "true".
+The lambda is simply autoblackmagically executed on the remote server, returning as a result in this case "true".
 
 
 # Run the Example
