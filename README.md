@@ -15,7 +15,7 @@ The project consists in to seperate modules: Nebula-Master and Nebula-Slave.
 # Nebula-Slave
 Nebula-Slave is actually a server, that once started, runs indefinitely; constantly waiting to receive a Computation, one after the other.
 The so called Slave(the server in discussion), executes the Computation and returns the obtained result. 
-In order to start a Slave instance, execute the Main1.java (there is a "main" method where a new instance of Server is started on port 12345
+In order to start a Slave instance, execute the Main1.java (there is a "main" method where a new instance of Server is created on port 12345
 and started).
 ```java
 Server slave_server = new Server(server_port);
