@@ -10,7 +10,7 @@ The given asignment wasn't preceisly this, but something way more rudimentary.It
 on the server, and the other part on the client. Therefore, I had this idea, with a more general scope. It was approximately functional.
 This is a reimplementation, supporting also Remote Lambdas(at that time, lambda wasn't supported in java).
 
-The project consists in to seperate modules: Nebula-Master and Nebula-Slave.
+The project consists in two seperate modules: Nebula-Master and Nebula-Slave.
 
 # Nebula-Slave
 Nebula-Slave is actually a server, that once started, runs indefinitely; constantly waiting to receive a Computation, one after the other.
@@ -24,7 +24,7 @@ slave_server.start();
 
 # Nebula-Master
 Nebula-Master contains a client that permits you to send a Computation to any Slave in order to be executed; waiting in turn after the result. 
-In order to send a computation to a running Slave(Server) instance, you simply create a new Slave(address_of_slave, port_of_slave) and invoke the method
+In order to send a computation to a running Slave/Server instance, you simply create a new Slave(address_of_slave, port_of_slave) and invoke the method
 "compute(Labda or Computation object)". 
 ```java
 Slave slave = new Slave(remote_server_address, remote_server_port);
