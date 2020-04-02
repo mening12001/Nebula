@@ -2,7 +2,7 @@
 # General-purpose Distributed Computing Framework in Java (POC)
 
 This project is experimental in nature. You should view this implementation simply as a proof of concept.
-This "framework" gives you the possibility to execute remotely almost any computation or task on a given server or cluster of servers. 
+This "framework" gives you the possibility to execute remotely almost any computation/task on a given server or cluster of servers. 
 It implemens in a way, superficially, a General-purpose Distributed Computing System. You can execute a REMOTE LAMBDA practically.
 
 At first, it was developed just for my own amusement while I was still in collage. It was written during a couple of courses, as an asignment.
