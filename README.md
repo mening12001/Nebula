@@ -6,7 +6,7 @@ This "framework" gives you the possibility to execute remotely almost any comput
 It implemens in a way, superficially, a General-purpose Distributed Computing System. You can execute a REMOTE LAMBDA practically.
 
 At first, it was developed just for my own amusement while I was still in collage. It was written during a couple of courses, as an asignment.
-The given asignment wasn't preceisly this, but something way more rudimentary.It was expected to explicitly implement a part of an algorithm
+The given asignment wasn't preceisly this, but something way more rudimentary.It was expected to explicitly implement a part of a particular algorithm
 on the server, and the other part on the client. Therefore, I had this idea, with a more general scope. It was approximately functional.
 This is a reimplementation, supporting also Remote Lambdas(at that time, lambda wasn't supported in java).
 
